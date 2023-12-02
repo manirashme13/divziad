@@ -7,7 +7,7 @@ html , body{
 *{
     box-sizing: border-box;
 }
-.containor{
+.container{
     width: 100%;
     height: 100%;
     max-width: 768px;
@@ -16,7 +16,7 @@ html , body{
     flex-direction: column;
     justify-content: space-between;
 }
- .header{
+ .nav{
     width: 100%;
     height: 4rem;
     display: flex;
@@ -68,7 +68,7 @@ html , body{
     justify-content: center;
 
  }
- .hr1{
+ .Separator{
     background-color: #eeeeee;
     height: 0.1rem;
     width: 98%;
@@ -77,7 +77,7 @@ html , body{
     flex-direction: row;
     align-self: center;
  }
- .body{ 
+ .head{ 
     width: 100%;
     height: 110%;
     padding: 0.5rem;
@@ -86,7 +86,7 @@ html , body{
     justify-content: space-between;
     gap:1.3rem ;
  }
- .bodybilding{
+ .header{
     background-color: #dbdbdb;
     width: 100%;
     height: 20rem;    
@@ -97,7 +97,7 @@ html , body{
     flex-direction: column;
     gap: 0.5rem;
  }
- .bigtext{
+ .Jumbtron{
    font-size: 4.5rem;  
    font-style:  bold;
    display: flex;
@@ -106,14 +106,14 @@ html , body{
    align-items: center;
    font-weight: bold;
  }
-.slowtext{
+.JumbtronText{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    font-size: 1.2rem;
 }
-.greentext{
+.signUpText{
    width: 9.5rem;
    height: 3.6rem;
    border-radius: 0.5rem;
@@ -124,7 +124,7 @@ html , body{
    align-items: center;
    color: white;
 }
- .body2{
+ .body{
    width: 100%;
    height: 16rem;
    display: flex;
@@ -132,18 +132,18 @@ html , body{
    flex-direction: row;
    flex-wrap: wrap;
  }
- .text{
+ .Subheading{
    width: 40%;
    font-size: 1.2rem;
    font-weight: bold;
  }
-.p{
+.SubheadingText{
    font-size: 0.8rem;
    font-style: normal;
    font-weight: lighter;
 }
 
- .hr2{
+ .Separator{
     background-color: #dbdbdb;
     height: 0.1rem;
     width: 100%;
